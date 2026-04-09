@@ -1,0 +1,13 @@
+{
+  "name": "professional-twin",
+  "owner": {
+    "name": "Manuel Schurr"
+  },
+  "plugins": [
+    {
+      "name": "professional-twin",
+      "source": ".",
+      "description": "Build and use a personal repository of your professional self — your identity, history, values, and direction — so Claude can help you apply for jobs, prepare for interviews, and reflect on your career."
+    }
+  ]
+}

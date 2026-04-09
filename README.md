@@ -13,33 +13,31 @@ Four skills:
 - **`review-job-offer`** — Given a job description, evaluates fit against your twin repo. Highlights matches, gaps, dealbreakers, and red flags. Optionally hands off to `tailor-application`.
 - **`tailor-application`** — Drafts tailored application materials (cover letter, CV emphasis, answers to specific questions) using your twin repo as the source of truth.
 
-## Install (local development)
+## Install
 
-This plugin is currently distributed via local marketplace only. To install:
+No cloning needed. In Claude Code, run:
 
-1. Clone this repo somewhere on your machine:
-   ```bash
-   git clone https://github.com/manuelschurr/professional-twin.git
-   ```
-2. Create a local marketplace entry at `~/.claude/plugins/local-marketplace/.claude-plugin/marketplace.json` (or add to your existing one):
-   ```json
-   {
-     "name": "local-dev",
-     "owner": { "name": "Your Name" },
-     "plugins": [
-       {
-         "name": "professional-twin",
-         "source": "file:///absolute/path/to/professional-twin",
-         "description": "Build and use a personal repository of your professional self"
-       }
-     ]
-   }
-   ```
-3. Register and install in Claude Code:
-   ```
-   /plugin marketplace add ~/.claude/plugins/local-marketplace
-   /plugin install professional-twin@local-dev
-   ```
+```
+/plugin marketplace add manuelschurr/professional-twin
+/plugin install professional-twin@professional-twin
+```
+
+The first command fetches this repo as a plugin marketplace (Claude Code clones it under `~/.claude/plugins/marketplaces/` for you); the second installs the plugin from it. After that, the `setup`, `interview`, `review-job-offer`, and `tailor-application` skills (and their `/` command wrappers) are available in any Claude Code session.
+
+To update later: `/plugin marketplace update professional-twin`.
+
+### Local development
+
+If you want to hack on the plugin itself, clone the repo and add it as a local marketplace:
+
+```bash
+git clone https://github.com/manuelschurr/professional-twin.git
+```
+
+```
+/plugin marketplace add /absolute/path/to/professional-twin
+/plugin install professional-twin@professional-twin
+```
 
 ## Usage
 
