@@ -19,12 +19,12 @@ No cloning needed. In Claude Code, run:
 
 ```
 /plugin marketplace add manuelschurr/professional-twin
-/plugin install professional-twin@professional-twin
+/plugin install professional-twin@c200v
 ```
 
 The first command fetches this repo as a plugin marketplace (Claude Code clones it under `~/.claude/plugins/marketplaces/` for you); the second installs the plugin from it. After that, the `setup`, `interview`, `review-job-offer`, and `tailor-application` skills (and their `/` command wrappers) are available in any Claude Code session.
 
-To update later: `/plugin marketplace update professional-twin`.
+To update later: `/plugin marketplace update c200v`.
 
 ### Local development
 
@@ -36,7 +36,7 @@ git clone https://github.com/manuelschurr/professional-twin.git
 
 ```
 /plugin marketplace add /absolute/path/to/professional-twin
-/plugin install professional-twin@professional-twin
+/plugin install professional-twin@c200v
 ```
 
 ## Usage
