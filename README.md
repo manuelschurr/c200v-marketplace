@@ -18,25 +18,25 @@ Four skills:
 No cloning needed. In Claude Code, run:
 
 ```
-/plugin marketplace add manuelschurr/professional-twin
-/plugin install professional-twin@c200v
+/plugin marketplace add manuelschurr/c200v-marketplace
+/plugin install professional-twin@c200v-marketplace
 ```
 
 The first command fetches this repo as a plugin marketplace (Claude Code clones it under `~/.claude/plugins/marketplaces/` for you); the second installs the plugin from it. After that, the `setup`, `interview`, `review-job-offer`, and `tailor-application` skills (and their `/` command wrappers) are available in any Claude Code session.
 
-To update later: `/plugin marketplace update c200v`.
+To update later: `/plugin marketplace update c200v-marketplace`.
 
 ### Local development
 
 If you want to hack on the plugin itself, clone the repo and add it as a local marketplace:
 
 ```bash
-git clone https://github.com/manuelschurr/professional-twin.git
+git clone https://github.com/manuelschurr/c200v-marketplace.git
 ```
 
 ```
-/plugin marketplace add /absolute/path/to/professional-twin
-/plugin install professional-twin@c200v
+/plugin marketplace add /absolute/path/to/c200v-marketplace
+/plugin install professional-twin@c200v-marketplace
 ```
 
 ## Usage

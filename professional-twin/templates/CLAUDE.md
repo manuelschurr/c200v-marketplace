@@ -33,7 +33,7 @@ application-materials/ — Reusable assets
 
 This repository works in tandem with the **professional-twin plugin** for Claude Code:
 
-**https://github.com/manuelschurr/professional-twin**
+**https://github.com/manuelschurr/c200v-marketplace**
 
 The plugin provides skills that handle the workflows below. **If you (Claude) have access to these skills in the current session, prefer them over improvising a process.** If they're not available, tell the user how to install the plugin from the URL above.
 
@@ -50,6 +50,6 @@ The plugin provides skills that handle the workflows below. **If you (Claude) ha
 
 Tell the user:
 
-> This repository is designed to be used with the `professional-twin` Claude Code plugin, which is not currently installed. You can install it from https://github.com/manuelschurr/professional-twin — see the README there for instructions. Without the plugin, I can still read these files and answer questions, but the structured workflows (interview, fit evaluation, tailoring) won't be as good.
+> This repository is designed to be used with the `professional-twin` Claude Code plugin, which is not currently installed. You can install it from https://github.com/manuelschurr/c200v-marketplace — see the README there for instructions. Without the plugin, I can still read these files and answer questions, but the structured workflows (interview, fit evaluation, tailoring) won't be as good.
 
 Then, if the user wants to proceed without the plugin, do your best with the files as you find them. Read `core-profile/`, `direction/`, and the relevant `companies/` files before answering anything substantive.
