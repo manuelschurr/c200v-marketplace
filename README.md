@@ -52,7 +52,7 @@ This plugin is currently distributed via local marketplace only. To install:
 
 ```
 your-twin-repo/
-├── CLAUDE.md                       # tells Claude how to use this repo
+├── CLAUDE.md                       # tells Claude how to use this repo + which plugin skills to use
 ├── core-profile/                   # who you are
 │   ├── professional-identity.md
 │   ├── career-history.md
@@ -65,12 +65,10 @@ your-twin-repo/
 │   ├── target-roles-and-criteria.md
 │   ├── industries-and-domains.md
 │   └── values-and-work-style.md
-├── application-materials/          # reusable assets
-│   ├── base-cv.md
-│   ├── writing-samples-and-portfolio.md
-│   └── common-questions.md
-└── system/
-    └── instructions.md             # pointer doc — tells Claude which skills handle which workflows
+└── application-materials/          # reusable assets
+    ├── base-cv.md
+    ├── writing-samples-and-portfolio.md
+    └── common-questions.md
 ```
 
 ## License

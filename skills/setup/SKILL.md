@@ -56,12 +56,10 @@ Show the user a tree of what's about to be created:
 │   ├── target-roles-and-criteria.md
 │   ├── industries-and-domains.md
 │   └── values-and-work-style.md
-├── application-materials/
-│   ├── base-cv.md
-│   ├── writing-samples-and-portfolio.md
-│   └── common-questions.md
-└── system/
-    └── instructions.md
+└── application-materials/
+    ├── base-cv.md
+    ├── writing-samples-and-portfolio.md
+    └── common-questions.md
 ```
 
 Then ask: "Create this in `<target>`? (yes/no)"
