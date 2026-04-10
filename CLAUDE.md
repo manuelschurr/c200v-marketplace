@@ -27,7 +27,9 @@ Skills are pure Markdown instructions, not code. They are loaded by Claude Code 
 
 ## Conventions
 
-- **Bump the version** in `<plugin>/.claude-plugin/plugin.json` on every change. Users' plugin caches are keyed by version — without a bump, changes won't propagate.
+- **Two version numbers to maintain:**
+  - `<plugin>/.claude-plugin/plugin.json` — the **plugin version**. Bump on every change to a plugin's skills, commands, or templates. This is what Claude Code checks to decide whether the cached copy is stale.
+  - `.claude-plugin/marketplace.json` — the **marketplace catalog version**. Bump when plugins are added, removed, or when any plugin's version entry changes. These are independent version numbers tracking different things.
 - **Don't add new skills or commands without discussing with the maintainer first.**
 - The `templates/` directory under `professional-twin` contains files that are copied verbatim into the user's twin repo by the `setup` skill. Edits to templates affect every new repo going forward, but not existing ones.
 - There are two CLAUDE.md files in this repo. This one (repo root) guides Claude when working on the marketplace itself. `professional-twin/templates/CLAUDE.md` is a template that gets copied into the user's twin repo by the `setup` skill — it guides Claude when working inside a twin repo. Edits to one should not bleed into the other.
