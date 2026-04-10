@@ -34,15 +34,10 @@ If any of these are missing, bail out:
 Complete in order. Do not skip steps.
 
 1. **Read the job description.** If the user pasted text, work with that. If they gave a file path, read it. If they gave a URL, ask the user to paste the content (do not try to fetch unless they explicitly tell you to).
-2. **Read `direction/target-roles-and-criteria.md`.** Check the dealbreakers list.
-3. **Dealbreaker check.** If ANY dealbreaker is hit, surface it immediately at the top of the response. Ask whether to continue with the rest of the evaluation. Do not bury this — dealbreakers are the most important output.
-4. **Read `direction/industries-and-domains.md`.** Note alignment or mismatch with industry/domain interests.
-5. **Read `direction/values-and-work-style.md`.** Note signals from the JD that suggest cultural fit or misfit (remote/hybrid, autonomy clues, leadership style hints).
-6. **Read `core-profile/skills-and-competencies.md`.** Match required skills against actual skills. Identify genuine matches, partial matches, and real gaps.
-7. **Scan `companies/`.** Find any past role(s) that map closely to what the JD asks for. Read the relevant files and pull specific evidence.
-8. **Read `core-profile/professional-identity.md`.** Check whether the role aligns with the user's positioning and narrative.
-9. **Compose the assessment.** Use the format below.
-10. **Offer the handoff.** Ask the user if they want to draft tailored application materials. If yes, dispatch `tailor-application` as a subagent with the JD and the fit assessment as context.
+2. **Read the full twin repo.** Read every `.md` file in `core-profile/`, `direction/`, `companies/`, and `application-materials/`. You need the complete picture to evaluate fit — relevant evidence may live in unexpected files.
+3. **Dealbreaker check.** If ANY dealbreaker from `direction/target-roles-and-criteria.md` is hit, surface it immediately at the top of the response. Ask whether to continue with the rest of the evaluation. Do not bury this — dealbreakers are the most important output.
+4. **Compose the assessment.** Use the format below.
+5. **Offer the handoff.** Ask the user if they want to draft tailored application materials. If yes, dispatch `tailor-application` as a subagent with the JD and the fit assessment as context.
 
 ## Output format
 

@@ -22,12 +22,14 @@ Every topic goes through the interview. Even ones that seem obvious. "Straightfo
 You MUST complete these steps in order:
 
 1. **Identify target file.** If the user named one, use it. If they didn't, see "No target file" below.
-2. **Explore context** — read the repo's `CLAUDE.md`, related docs, and any material the user points you to.
-3. **Review target file** — if the file already has content, read it and identify what's solid, what's thin, what's stale, and what's missing. Don't re-interview ground that's already well-covered.
-4. **Ask clarifying questions** — one at a time, understand the user's positions, experiences, and boundaries on this topic.
-5. **Present draft** — in sections scaled to their complexity, get user approval after each section.
-6. **Challenge pass** — review the draft for vagueness, contradictions, and gaps; ask targeted follow-ups one at a time.
-7. **Write the file** — integrate new material into the existing file. Reduce redundancy, reshape structure where needed, and preserve what was already approved. Save the result.
+2. **Build full context.** — Read every `.md` file in the twin repo — all of `core-profile/`, `direction/`, `application-materials/`, and `companies/`. You need the full picture before you can interview well.
+3. **Review target file.** — If the file already has content, identify what's solid, what's thin, what's stale, and what's missing. Don't re-interview ground that's already well-covered.
+4. **Cross-reference.** — Before forming questions, note what other files already capture that's relevant to this file's topic. You'll use this in the next step to avoid re-asking.
+5. **Ask clarifying questions** — One at a time, understand the user's positions, experiences, and boundaries on this topic. **Before asking any question, check whether another file already answers it.** If it does, reference it: "I see `[file]` already captures [X] — does that still hold, or has your thinking changed?" Only ask from-scratch questions for genuinely uncovered ground.
+6. **Present draft** — In sections scaled to their complexity, get user approval after each section.
+7. **Challenge pass** — Review the draft for vagueness, contradictions, and gaps; ask targeted follow-ups one at a time.
+8. **Write the file** — Integrate new material into the existing file. Reduce redundancy, reshape structure where needed, and preserve what was already approved. Save the result.
+9. **Note cross-cutting edits*** — If the interview uncovered information that should be stored in another file, mention this to the user and ask whether it should be integrated as well.
 
 ## No target file
 

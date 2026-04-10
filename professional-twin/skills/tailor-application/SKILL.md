@@ -50,20 +50,14 @@ Ask the user which of these they want:
 
 ## Required reading
 
-For every invocation, read:
+Read ALL `.md` files in the twin repo before drafting:
 
-- `core-profile/professional-identity.md` — positioning and narrative
-- `core-profile/career-history.md` — full role overview
-- `core-profile/skills-and-competencies.md` — skill evidence
-- `application-materials/base-cv.md` — canonical CV content
-- `application-materials/common-questions.md` — pre-existing answers to common questions
+- Everything in `core-profile/` — positioning, career overview, skills, side projects
+- Everything in `direction/` — the user's preferences, values, and criteria should inform framing even though they don't appear directly in materials
+- Everything in `companies/` — not just "relevant" ones; adjacent experience from unexpected roles is often the strongest differentiator
+- Everything in `application-materials/` — base CV, existing answers, writing voice, portfolio
 
-For the specific role being applied to, also read:
-- Relevant `companies/*.md` files — the ones that map closest to what the JD asks for. Pull specific projects, metrics, quotes.
-- `core-profile/side-projects-and-open-source.md` — only if the JD signals that side projects matter (e.g. early-stage startup, technical role, mission-driven).
-
-For the user's "voice," also read:
-- `application-materials/writing-samples-and-portfolio.md` — to understand their existing written voice.
+Do not selectively read. The repo is small; the cost of reading everything is lower than the cost of missing a relevant fact.
 
 ## Drafting principles
 
