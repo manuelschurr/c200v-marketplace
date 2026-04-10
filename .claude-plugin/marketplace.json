@@ -11,7 +11,7 @@
       "name": "professional-twin",
       "source": "./professional-twin",
       "description": "Build and use a personal repository of your professional self — your identity, history, values, and direction — so Claude can help you apply for jobs, prepare for interviews, and reflect on your career.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Manuel Schurr"
       }
