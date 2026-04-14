@@ -4,17 +4,19 @@
     "name": "Manuel Schurr"
   },
   "metadata": {
-    "description": "A personal marketplace of Claude Code plugins by Manuel Schurr."
+    "description": "A personal marketplace of Claude Code plugins by Manuel Schurr.",
+    "version": "1.0.2"
   },
   "plugins": [
     {
       "name": "professional-twin",
       "source": "./professional-twin",
       "description": "Build and use a personal repository of your professional self — your identity, history, values, and direction — so Claude can help you apply for jobs, prepare for interviews, and reflect on your career.",
-      "version": "0.1.2",
+      "version": "1.0.0",
       "author": {
         "name": "Manuel Schurr"
-      }
+      },
+      "strict": true
     },
     {
       "name": "tutor",
@@ -23,7 +25,8 @@
       "version": "0.1.0",
       "author": {
         "name": "Manuel Schurr"
-      }
+      },
+      "strict": true
     }
   ]
 }
