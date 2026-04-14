@@ -5,27 +5,27 @@
   },
   "metadata": {
     "description": "A personal marketplace of Claude Code plugins by Manuel Schurr.",
-    "version": "1.0.2"
+    "version": "2.0.0"
   },
   "plugins": [
     {
       "name": "professional-twin",
-      "source": "./professional-twin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/manuelschurr/professional-twin.git"
+      },
       "description": "Build and use a personal repository of your professional self — your identity, history, values, and direction — so Claude can help you apply for jobs, prepare for interviews, and reflect on your career.",
       "version": "1.0.0",
-      "author": {
-        "name": "Manuel Schurr"
-      },
       "strict": true
     },
     {
       "name": "tutor",
-      "source": "./tutor",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/manuelschurr/tutor.git"
+      },
       "description": "A personal adaptive learning plugin. Create a custom course on any topic and study it through guided, expert-tutor-style sessions inside Claude Code.",
       "version": "0.1.0",
-      "author": {
-        "name": "Manuel Schurr"
-      },
       "strict": true
     }
   ]
