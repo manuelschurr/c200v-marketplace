@@ -25,7 +25,7 @@
         "url": "https://github.com/manuelschurr/tutor.git"
       },
       "description": "A personal adaptive learning plugin. Create a custom course on any topic and study it through guided, expert-tutor-style sessions inside Claude Code.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "strict": true
     }
   ]
