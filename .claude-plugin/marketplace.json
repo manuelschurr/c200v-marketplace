@@ -27,6 +27,16 @@
       "description": "A personal adaptive learning plugin. Create a custom course on any topic and study it through guided, expert-tutor-style sessions inside Claude Code.",
       "version": "0.1.2",
       "strict": true
+    },
+    {
+      "name": "claude-vps",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/manuelschurr/claude-vps.git"
+      },
+      "description": "Use Claude on a VPS effortlessly: start or restart a worktree branch's dev server and get a public URL to test it from any device, plus a memory/idle resource guard so the box never runs out of RAM.",
+      "version": "0.1.0",
+      "strict": true
     }
   ]
 }
