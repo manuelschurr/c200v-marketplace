@@ -23,6 +23,7 @@ To update later: `/plugin marketplace update c200v-marketplace`.
 | [`professional-twin`](https://github.com/manuelschurr/professional-twin) | `manuelschurr/professional-twin` | Build and use a personal repository of your professional self — identity, history, values, direction — so Claude can help you apply for jobs, prep for interviews, and reflect on your career. |
 | [`tutor`](https://github.com/manuelschurr/tutor) | `manuelschurr/tutor` | A personal adaptive learning plugin. Create a custom course on any topic and study it through guided, expert-tutor-style sessions inside Claude Code. |
 | [`claude-vps`](https://github.com/manuelschurr/claude-vps) | `manuelschurr/claude-vps` | Run Claude Code on a VPS end-to-end: bootstrap the host, onboard projects, test worktree branches at public URLs, and manage a tmux session grid — with a memory/idle resource guard so the box never runs out of RAM. |
+| [`running-coach`](https://github.com/manuelschurr/running-coach) | `manuelschurr/running-coach` | A personal running coach: pull intervals.icu data, diagnose your fitness arc, find races near you, build training plans calibrated to current fitness, and author + push structured single-metric pace workouts to your intervals.icu calendar — plus manage your workout-template library. |
 
 Install any plugin with:
 
