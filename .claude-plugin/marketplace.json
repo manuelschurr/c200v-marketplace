@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "A personal marketplace of Claude Code plugins by Manuel Schurr.",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   "plugins": [
     {
@@ -36,6 +36,16 @@
       },
       "description": "Run Claude Code on a VPS end-to-end: bootstrap the host, onboard projects, test worktree branches at public URLs, and manage a tmux session grid — with a memory/idle resource guard so the box never runs out of RAM.",
       "version": "0.1.0",
+      "strict": true
+    },
+    {
+      "name": "running-coach",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/manuelschurr/running-coach.git"
+      },
+      "description": "A personal running coach: pull intervals.icu data, diagnose your fitness arc, find races near you, build training plans calibrated to current fitness, and author + push structured single-metric pace workouts to your intervals.icu calendar — plus manage your workout-template library.",
+      "version": "0.2.0",
       "strict": true
     }
   ]
