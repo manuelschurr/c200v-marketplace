@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "A personal marketplace of Claude Code plugins by Manuel Schurr.",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   "plugins": [
     {
@@ -26,16 +26,6 @@
       },
       "description": "A personal adaptive learning plugin. Create a custom course on any topic and study it through guided, expert-tutor-style sessions inside Claude Code.",
       "version": "0.1.2",
-      "strict": true
-    },
-    {
-      "name": "claude-vps",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/manuelschurr/claude-vps.git"
-      },
-      "description": "Run Claude Code on a VPS end-to-end: bootstrap the host, onboard projects, test worktree branches at public URLs, and manage a tmux session grid — with a memory/idle resource guard so the box never runs out of RAM.",
-      "version": "0.1.0",
       "strict": true
     },
     {
